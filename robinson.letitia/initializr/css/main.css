@@ -7,7 +7,7 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #7b8086;
     text-shadow: none;
 }
 
@@ -102,11 +102,9 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
-
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
     color: white;
     background: #e44d26;
 }
