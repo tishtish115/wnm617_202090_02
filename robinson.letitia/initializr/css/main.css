@@ -7,12 +7,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #ffbbda;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #ffbbda;
     text-shadow: none;
 }
 
@@ -63,6 +63,7 @@ body {
 .wrapper {
     width: 90%;
     margin: 0 5%;
+    color: #F864A7;
 }
 
 /* ===================
@@ -70,18 +71,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #ffbbda;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #ffbbda;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #F864A7;
 }
 
 .title {
@@ -102,13 +103,11 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
-
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
     color: white;
-    background: #e44d26;
+    background: #ffbbda;
 }
 
 nav a:hover,
@@ -134,7 +133,7 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 5px 5% 10px;
 }
 
 .footer-container footer {
@@ -238,12 +237,12 @@ nav a:hover {
    ============ */
 
     .main article {
-        float: left;
+        float: right;
         width: 57%;
     }
 
     .main aside {
-        float: right;
+        float: center;
         width: 28%;
     }
 }

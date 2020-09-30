@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Animal Tracker</title>
+
+   <link rel="stylesheet" href="lib/css/jquery.mobile.structure-1.4.5.min.css">
+   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/app.css">
+
+   <script src="lib/js/jquery-2.2.4.min.js"></script>
+   <script src="js/app.js"></script>
+
+   <script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+
+   <section data-role="page" id="signin-page">
+      <div data-role="main" class="display-flex flex-column">
+         <div class="flex-stretch display-flex flex-align-center flex-justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icon" style="width:60vw;height:60vw;"><defs><style>.stroke-thin-center{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>thumbs-up</title><path d="M50,25V45H75.86l-2.93,2.93L70,50.86V74a1,1,0,0,1-1,1H20V55h5A20,20,0,0,0,45,35V25h5m0-10H40a5,5,0,0,0-5,5V35A10,10,0,0,1,25,45H10V85H69A11,11,0,0,0,80,74V55l2.93-2.93a10,10,0,0,0,0-14.14L80,35H60V25A10,10,0,0,0,50,15Z"></path><line class="stroke-thin-center" x1="30" y1="79" x2="30" y2="50"></line></svg>
+         </div>
+         <form id="signin-form" data-ajax="false">
+            <div class="form-control">
+               <label for="signin-username" class="form-label">Username</label>
+               <input id="signin-username" type="text" class="form-input" data-role="none" placeholder="Enter your username">
+            </div>
+            <div class="form-control">
+               <label for="signin-password" class="form-label">Password</label>
+               <input id="signin-password" type="password" class="form-input" data-role="none" placeholder="Enter your password">
+            </div>
+            <div class="form-control">
+               <a href="#recent-page" class="form-button">Sign In</a>
+            </div>
+            <div class="form-control signin-alt">
+               Don't have an account?
+               <a href="#signup-page">Sign Up</a>
+            </div>
+         </form>
+      </div>
+   </section>
+
+   <section data-role="page" id="signup-page">
+      <div data-role="main" class="display-flex flex-align-center flex-justify-center">
+         <form id="signup-form" data-ajax="false">
+            <div class="form-control">
+               <label for="signup-username" class="form-label">Username</label>
+               <input id="signup-username" type="text" class="form-input" data-role="none" placeholder="Enter your username">
+            </div>
+            <div class="form-control">
+               <label for="signup-password" class="form-label">Password</label>
+               <input id="signup-password" type="password" class="form-input" data-role="none" placeholder="Enter your password">
+            </div>
+            <div class="form-control">
+               <label for="signup-password-confirm" class="form-label">Confirm Password</label>
+               <input id="signup-password-confirm" type="password" class="form-input" data-role="none" placeholder="Enter your password">
+            </div>
+            <div class="form-control">
+               <a href="#recent-page" class="form-button">Sign Up</a>
+            </div>
+            <div class="form-control signin-alt">
+               Already have an account?
+               <a href="#signin-page">Sign In</a>
+            </div>
+         </form>
+      </div>
+   </section>
+
+   <section data-role="page" id="recent-page">
+      <div data-role="main"></div>
+      <footer data-role="footer">
+         <ul>
+            <li><a href="#recent-page">Recent</a></li>
+            <li><a href="#list-page">List</a></li>
+            <li><a href="#user-profile-page">Profile</a></li>
+         </ul>
+      </footer>
+   </section>
+
+   <section data-role="page" id="list-page">
+      <header data-role="header">
+         <h1>List Page</h1>
+      </header>
+      <div data-role="main">
+         <ul>
+            <!-- li*10>a[href=#animal-profile-page]{Animal $} -->
+            <li><a href="#animal-profile-page">Rabbits</a></li>
+            <li><a href="#animal-profile-page">Animal 2</a></li>
+            <li><a href="#animal-profile-page">Animal 3</a></li>
+            <li><a href="#animal-profile-page">Animal 4</a></li>
+            <li><a href="#animal-profile-page">Animal 5</a></li>
+            <li><a href="#animal-profile-page">Animal 6</a></li>
+            <li><a href="#animal-profile-page">Animal 7</a></li>
+            <li><a href="#animal-profile-page">Animal 8</a></li>
+            <li><a href="#animal-profile-page">Animal 9</a></li>
+            <li><a href="#animal-profile-page">Animal 10</a></li>
+         </ul>
+      </div>
+      <footer data-role="footer">
+         <ul>
+            <li><a href="#recent-page">Recent</a></li>
+            <li><a href="#list-page">List</a></li>
+            <li><a href="#user-profile-page">Profile</a></li>
+         </ul>
+      </footer>
+   </section>
+
+   <section data-role="page" id="user-profile-page">
+      <div data-role="main">
+         User Profile
+         <p><a href="#signin-page">Logout</a></p>
+      </div>
+      <footer data-role="footer">
+         <ul>
+            <li><a href="#recent-page">Recent</a></li>
+            <li><a href="#list-page">List</a></li>
+            <li><a href="#user-profile-page">Profile</a></li>
+         </ul>
+      </footer>
+   </section>
+
+   <section data-role="page" id="animal-profile-page">
+      <header data-role="header">
+         <h1>Animal Page</h1>
+         <ul>
+            <li><a href="#" data-rel="back">Back</a></li>
+         </ul>
+      </header>
+      <div data-role="main">
+         Animal Profile
+      </div>
+   </section>
+
+</body>
+</html>
