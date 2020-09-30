@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>jQuery Mobile</title>
+
+   <link rel="stylesheet" href="../lib/css/jquery.mobile.structure-1.4.5.min.css">
+
+   <script src="../lib/js/jquery-2.2.4.min.js"></script>
+   <script src="../lib/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+   
+   <section data-role="page" id="page1">
+      <header data-role="header">
+         <h1>Page 1</h1>
+      </header>
+      <div data-role="main">
+         <h2>This is Page 1</h2>
+         <p>This page is a page.</p>
+         <ul>
+            <li><a href="#page2">Go to Page 2</a></li>
+            <li><a href="#page3">Go to Page 3</a></li>
+         </ul>
+      </div>
+      <footer data-role="footer">
+         <h1>Navigation</h1>
+      </footer>
+   </section>
+   
+   <section data-role="page" id="page2">
+      <div data-role="main">
+         <h2>This is Page 2</h2>
+         <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+         <p>This page is also page.</p>
+         <ul>
+            <li><a href="#page1">Go to Page 1</a></li>
+            <li><a href="#page3">Go to Page 3</a></li>
+         </ul>
+      </div>
+      <footer data-role="footer">
+         <h1>Navigation</h1>
+      </footer>
+   </section>
+   
+   <section data-role="page" id="page3">
+      <header data-role="header">
+         <h1>Page 3</h1>
+         <a href="#" data-rel="back">Back</a>
+      </header>
+      <div data-role="main">
+         <h2>This is Page 3</h2>
+         <p>This page is the last page.</p>
+      </div>
+   </section>
+
+</body>
+</html>
