@@ -82,6 +82,7 @@
       </header>
       <!--<h1 class="ui-title" role="heading" aria-level="1">Rabbit Tracker</h1>-->
       <div data-role="main" class="display-flex flex-align-center flex-justify-center">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icon" style="width:80vw;height:80vw;"><defs><style>.stroke-thin-center{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>thumbs-up</title><path d="M50,25V45H75.86l-2.93,2.93L70,50.86V74a1,1,0,0,1-1,1H20V55h5A20,20,0,0,0,45,35V25h5m0-10H40a5,5,0,0,0-5,5V35A10,10,0,0,1,25,45H10V85H69A11,11,0,0,0,80,74V55l2.93-2.93a10,10,0,0,0,0-14.14L80,35H60V25A10,10,0,0,0,50,15Z"></path><line class="stroke-thin-center" x1="30" y1="79" x2="30" y2="50"></line></svg>
          <form id="signup-form" data-ajax="false">
             <div class="form-control">
                <label for="signup-username" class="form-label">Username</label>
@@ -153,12 +154,34 @@
          </ul>
       </header>
       <div data-role="main">
+
          <div class="overscroll">
+          <div class="animallist-image">
+            <div class="animallist-image">
+               <img class="nav-icon" src="img/hare.png" alt="Mapicon">
+            <!--<img src="https://via.placeholder.com/300/3a9/fff?text=rabbit" alt="">-->
+              <div class="animallist-description">
+                     <div class="animallist-name">HarryHare</div>
+                     <div class="animallist-type"><strong>type</strong> Rabbit</div>
+                     <div class="animallist-breed"><strong>breed</strong>Sylvilagus palustris</div>
+                  </div>
+         </div>
+       
+         <div class="animallist-description">
+                     <div class="animallist-name">HarryHare</div>
+                     <div class="animallist-type"><strong>type</strong> Rabbit</div>
+                     <div class="animallist-breed"><strong>breed</strong>Sylvilagus palustris</div>
+                  </div>
+         <div class="animallist-description">
+                     <div class="animallist-name">HarryHare</div>
+                     <div class="animallist-type"><strong>type</strong> Rabbit</div>
+                     <div class="animallist-breed"><strong>breed</strong>Sylvilagus palustris</div>
+                  </div>
             <ul>
                <!-- li*10>a[href=#animal-profile-page]{Animal $} -->
-               <li><a href="#animal-profile-page">Rabbits....Rabbits are members of the Leporidae family with four species occurring in Georgia: the eastern cottontail (Sylvilagus floridanus), the swamp rabbit (Sylvilagus aquaticus), the marsh rabbit (Sylvilagus palustris), and the Appalachian cottontail (Sylvilagus obscurus).
+               <li><a href="#animal-profile-page"><!--Rabbits....Rabbits are members of the Leporidae family with four species occurring in Georgia: the eastern cottontail (Sylvilagus floridanus), the swamp rabbit (Sylvilagus aquaticus), the marsh rabbit (Sylvilagus palustris), and the Appalachian cottontail (Sylvilagus obscurus).
 https://georgiawildlife.com/sites/default/files/wrd/pdf/fact-sheets/2005_rabbit.pdf
-https://en.wikipedia.org/wiki/Swamp_rabbit</a></li>
+https://en.wikipedia.org/wiki/Swamp_rabbit--></a></li>
                <li><a href="#animal-profile-page">Cats</a></li>
                <li><a href="#animal-profile-page">Butterflies</a></li>
                <li><a href="#animal-profile-page">Horses</a></li>
@@ -187,7 +210,7 @@ https://en.wikipedia.org/wiki/Swamp_rabbit</a></li>
                <li><a href="#animal-profile-page">Animal 7</a></li>
                <li><a href="#animal-profile-page">Animal 8</a></li>
                <li><a href="#animal-profile-page">Animal 9</a></li>
-               <li><a href="#animal-profile-page">Animal 10</a></li>
+               <!--<li><a href="#animal-profile-page">Animal 10</a></li>
                <li><a href="#animal-profile-page">Animal 1</a></li>
                <li><a href="#animal-profile-page">Animal 2</a></li>
                <li><a href="#animal-profile-page">Animal 3</a></li>
@@ -208,7 +231,7 @@ https://en.wikipedia.org/wiki/Swamp_rabbit</a></li>
                <li><a href="#animal-profile-page">Animal 8</a></li>
                <li><a href="#animal-profile-page">Animal 9</a></li>
                <li><a href="#animal-profile-page">Animal 10</a></li>
-               <li><a href="#animal-profile-page">Animal </a></li>
+               <li><a href="#animal-profile-page">Animal </a></li>-->
             </ul>
          </div>
       </div>
@@ -216,11 +239,15 @@ https://en.wikipedia.org/wiki/Swamp_rabbit</a></li>
 
          <ul>
             <li><a href="#map-page">Map</a></li>
-              <img class="nav-icon" src="img/mapic2.png" alt="Mapicon">
+              <!--<img class="nav-icon" src="img/mapic2.png" alt="Mapicon">-->
               <!--<div class="nav-label">Map</div>-->
           <!--<img src="img/mapic2.svg" viewbox="0 0 100 100" class="mapicon" style="width:20px;height:25px;">-->
             <li><a href="#list-page">List</a></li>
+            <div class="nav-icon">
+            <img src="img/icon/list.svg" alt="">
+         </div>
             <li><a href="#user-profile-page">Profile</a></li>
+
          </ul>
       </footer>
 
@@ -251,19 +278,21 @@ https://en.wikipedia.org/wiki/Swamp_rabbit</a></li>
 
    <section data-role="page" id="user-profile-page">
        <header data-role="header">
-         <h1>Animal Profile</h1>
+         <h1>Rabbit Profile</h1>
       </header>
       <div data-role="main">
          Animal Profile
          <p><a href="#" class="js-logout">Logout</a></p>
+         <img class="nav-icon" src="img/hare.png" alt="Mapicon">
+
       </div>
+
       <footer data-role="footer">
          <ul>
             <li>
                <a href="#map-page">
                   <!--<img src="mapic2.svg" viewbox="0 0 100 100" class="logo" style="width:20vw;height:35vw;">-->
-                  <!--<div class="nav-label">Map</div>-->
-               </a>
+                  <!--<div class="nav-label">Map</div>--></a>
             </li>
             <li><a href="#recent-page">Recent</a></li>
             <li><a href="#list-page">List</a></li>
