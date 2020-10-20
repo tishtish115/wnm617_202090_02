@@ -8,7 +8,7 @@
 :root {
    --font-sans: Helvetica, Arial, sans-serif;
    --font-serif: Cambria, Georgia, serif;
-   --color-neutral-lighter: #b49b5754;
+   --color-neutral-lighter: #b49b5794;
    --color-neutral-light: #B49B57;
    --color-neutral-mediumer: #B49B57;
    --color-neutral-medium: #B49B57;
@@ -60,9 +60,10 @@ a:hover {
    text-decoration:underline;
 }
 
-.img anl(header).jpg; {
-  border-radius: 50%;
-  width:60vw;height:60vw;}
+.nav-icon {
+  width:60px;height:55px;
+  padding: 4px; 
+}
 
 
 
