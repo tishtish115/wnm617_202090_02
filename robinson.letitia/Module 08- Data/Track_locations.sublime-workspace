@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"E",
+				"Enter"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Balance Inward"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"uplo",
+				"SFTP: Upload File"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"terminal",
+				"Terminal: Open"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Module 08- Data/json_notes.json",
+		"/Users/letitiarobinson/Downloads/Track_locations.sql",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Module 08- Data/test.html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/css/app.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Module 08- Data/api.php",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Module 08- Data/json_template.js",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Module 08- Data/test.json",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Module 08- Data/img {.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/index.html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/sftp-config.json",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/demo/index.html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/archive/rabtrac.html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/archive/rabtrac.css",
+		"/Users/letitiarobinson/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/demo/jqmobile.css",
+		"/Users/letitiarobinson/Downloads/iconfinder_menu-lines-list_2931181.svg",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Login/package/extensions/jqt.actionsheet.min.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/demo/img/anl(header).png",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Demo/jqmobile.html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Demo/jqmobile.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/initializr/css/theme.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/initializr/css/main.css",
+		"/Users/letitiarobinson/Downloads/jquery.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Demo/jqmobile.php",
+		"/Users/letitiarobinson/Downloads/sftp-config.json",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/initializr/index.html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/index (5).html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Remembering jQuery/jquery.html",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/README.md",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/initializr/css/normalize.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/Remembering jQuery/jquery.css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/zenindex.css",
+		"/Users/letitiarobinson/Downloads/style (5).css",
+		"/Volumes/LaCie/San Francisco Academy of Art/WNM 617 Advanced Tech- Mobile Web/Development/anotherluv/aau/wnm617_02/zenindex.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 196.0
+	},
+	"pinned_build_system": "",
+	"project": "Track_locations.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
