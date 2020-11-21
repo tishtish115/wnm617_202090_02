@@ -1,0 +1,361 @@
+Skip to content
+Search or jump to…
+
+Pulls
+Issues
+Marketplace
+Explore
+ 
+@tishtish115 
+tishtish115
+/
+wnm617_202090_02
+forked from artuwnm/wnm617_202090_02
+0
+122
+Code
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+More
+wnm617_202090_02/robinson.letitia/index.html
+@tishtish115
+tishtish115 Add files via upload
+Latest commit 3c7388d 16 days ago
+ History
+ 1 contributor
+317 lines (289 sloc)  15.2 KB
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rabbit Tracker</title>
+
+   <link rel="stylesheet" href="lib/css/jquery.mobile.structure-1.4.5.min.css">
+   <link rel="stylesheet" href="css/app.css">
+
+   <script src="lib/js/jquery-2.2.4.min.js"></script>
+
+   <script src="js/signin.js"></script>
+   <script src="js/app.js"></script>
+
+   <script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+ <!--<h1 class="ui-title" role="heading" aria-level="1">Rabbit Tracker</h1>-->
+ <!--<header data-role="header">
+         <h1>Rabbit Tracker</h1>
+         <ul>
+            <li class="flex-stretch"></li>
+            <li><a href="#" data-activate="#list-add-modal">&plus;</a></li>
+         </ul>
+      </header>-->
+<body class= "ui-mobile-viewport ui-overlay-a">
+ 
+   <!--<div id="googleMap" style="width: 100%; height: 400px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" draggable="false" style="user-select: none;"></div><div class="gm-err-title">-->
+   <section data-role="page" id="signin-page">
+       <header data-role="header">
+         <h1>Rabbit Tracker</h1>
+      </header>
+      <div data-role="main" class="display-flex flex-column">
+         <div class="flex-stretch display-flex flex-align-center flex-justify-center">
+
+            <!--<h1 class="ui-title" roles"heading"="" aria-level="1>Rabbit Tracker</h1>-->
+            <!--<div class=" header"="">
+        </h1>
+        <h1>Rabbit Tracker</h1>
+        <!-<h2>Simply Beautiful</h2>-->
+    </div>
+            <!--<img src="anl(header).jpg" alt="logo" width="1500" height="1700">-->
+            <!--<img src="file:///Volumes/LaCie/San%20Francisco%20Academy%20of%20Art/WNM%20617%20Advanced%20Tech-%20Mobile%20Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/anl(header).jpg">
+            <img src="http://anotherluvdesign.site/images/anl(header).jpg">-->
+            
+            <img src="paws.jpg" class="logo" style="width:60vw;height:60vw;"> 
+            
+            <!--<img src="_MG_9343.jpg" viewbox="0 0 50 50" class="paris" style="width:250vw;height:250vw;">-->
+             
+         </div>
+         <form id="signin-form" data-ajax="false">
+            <div class="form-control">
+               <label for="signin-username" class="form-label">Username</label>
+               <input id="signin-username" type="text" class="form-input" data-role="none" placeholder="Type your username">
+            </div>
+            <div class="form-control">
+               <label for="signin-password" class="form-label">Password</label>
+               <input id="signin-password" type="password" class="form-input" data-role="none" placeholder="Type your password">
+            </div>
+            <div class="form-control">
+               <input type="submit" class="form-button" value="Sign In" data-role="none">
+            </div>
+            <div class="form-control signin-alt">
+               Don't have an account?
+               <a href="#signup-page">Sign Up</a>
+            </div>
+         </form>
+      </div>
+
+   </section>
+
+   <section data-role="page" id="signup-page">
+       <header data-role="header">
+         <h1>Rabbit Tracker</h1>
+      </header>
+         <ul>
+            <li class="flex-stretch"></li>
+            <li><a href="#" data-activate="#list-add-modal">&plus;</a></li>
+         </ul>
+      </header>
+      <!--<h1 class="ui-title" role="heading" aria-level="1">Rabbit Tracker</h1>-->
+      <div data-role="main" class="display-flex flex-align-center flex-justify-center">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icon" style="width:80vw;height:80vw;"><defs><style>.stroke-thin-center{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>thumbs-up</title><path d="M50,25V45H75.86l-2.93,2.93L70,50.86V74a1,1,0,0,1-1,1H20V55h5A20,20,0,0,0,45,35V25h5m0-10H40a5,5,0,0,0-5,5V35A10,10,0,0,1,25,45H10V85H69A11,11,0,0,0,80,74V55l2.93-2.93a10,10,0,0,0,0-14.14L80,35H60V25A10,10,0,0,0,50,15Z"></path><line class="stroke-thin-center" x1="30" y1="79" x2="30" y2="50"></line></svg>
+         <form id="signup-form" data-ajax="false">
+            <div class="form-control">
+               <label for="signup-username" class="form-label">Username</label>
+               <input id="signup-username" type="text" class="form-input" data-role="none" placeholder="Type your username">
+            </div>
+            <div class="form-control">
+               <label for="signup-password" class="form-label">Password</label>
+               <input id="signup-password" type="password" class="form-input" data-role="none" placeholder="Type your password">
+            </div>
+            <div class="form-control">
+               <label for="signup-password-confirm" class="form-label">Confirm Password</label>
+               <input id="signup-password-confirm" type="password" class="form-input" data-role="none" placeholder="Type your password">
+            </div>
+            <div class="form-control">
+               <a href="#recent-page" class="form-button">Sign Up</a>
+            </div>
+            <div class="form-control signin-alt">
+               Already have an account?
+               <a href="#signin-page">Sign In</a>
+            </div>
+         </form>
+      </div>
+   </section>
+
+   <section data-role="page" id="recent-page">
+      <header data-role="header">
+         <h1>Rabbit Tracker</h1>
+      </header>
+      <div data-role="main">
+         <div class="floater top right">
+            <div class="btn-circle" data-activate="#recent-add-modal">&equiv;</div>
+         </div>
+         <div class="floater bottom right">
+            <div class="btn-circle" data-toggle="#recent-profile-modal">&plus;</div>
+         </div>
+
+
+         <div class="modal" id="recent-add-modal">
+            <div class="modal-back" data-deactivate="#recent-add-modal"></div>
+            <div class="modal-drawer bottom">
+               <img src="img/atlantamap.jpg" viewbox="0 0 100 100" class="logo" style="width:150vw;height:175vw;">
+               <div class="modal-head">head</div>
+               <div class="modal-body">body</div>
+            </div>
+         </div>
+
+         <div class="modal" id="recent-profile-modal">
+            <div class="modal-drawer left">
+               <div class="modal-head">head</div>
+               <div class="modal-body">body</div>
+            </div>
+         </div>
+      </div>
+      <footer data-role="footer">
+         <ul>
+            <li><a href="#recent-page">Map</a></li>
+            <li><a href="#list-page">List</a></li>
+            <li><a href="#user-profile-page">Profile</a></li>
+         </ul>
+      </footer>
+   </section>
+
+   <section data-role="page" id="list-page">
+      <header data-role="header">
+         <h1>List Page</h1>
+         <ul>
+            <li class="flex-stretch"></li>
+            <li><a href="#" data-activate="#list-add-modal">&plus;</a></li>
+         </ul>
+      </header>
+      <div data-role="main">
+
+         <div class="overscroll">
+          <div class="animallist-image">
+            <div class="animallist-image">
+               <img class="nav-icon" src="img/hare.png" alt="Mapicon">
+            <!--<img src="https://via.placeholder.com/300/3a9/fff?text=rabbit" alt="">-->
+              <div class="animallist-description">
+                     <div class="animallist-name">HarryHare</div>
+                     <div class="animallist-type"><strong>type</strong> Rabbit</div>
+                     <div class="animallist-breed"><strong>breed</strong>Sylvilagus palustris</div>
+                  </div>
+         </div>
+       
+         <div class="animallist-description">
+                     <div class="animallist-name">HarryHare</div>
+                     <div class="animallist-type"><strong>type</strong> Rabbit</div>
+                     <div class="animallist-breed"><strong>breed</strong>Sylvilagus palustris</div>
+                  </div>
+         <div class="animallist-description">
+                     <div class="animallist-name">HarryHare</div>
+                     <div class="animallist-type"><strong>type</strong> Rabbit</div>
+                     <div class="animallist-breed"><strong>breed</strong>Sylvilagus palustris</div>
+                  </div>
+            <ul>
+               <!-- li*10>a[href=#animal-profile-page]{Animal $} -->
+               <li><a href="#animal-profile-page"><!--Rabbits....Rabbits are members of the Leporidae family with four species occurring in Georgia: the eastern cottontail (Sylvilagus floridanus), the swamp rabbit (Sylvilagus aquaticus), the marsh rabbit (Sylvilagus palustris), and the Appalachian cottontail (Sylvilagus obscurus).
+https://georgiawildlife.com/sites/default/files/wrd/pdf/fact-sheets/2005_rabbit.pdf
+https://en.wikipedia.org/wiki/Swamp_rabbit--></a></li>
+               <li><a href="#animal-profile-page">Cats</a></li>
+               <li><a href="#animal-profile-page">Butterflies</a></li>
+               <li><a href="#animal-profile-page">Horses</a></li>
+               <li><a href="#animal-profile-page">Pigs</a></li>
+               <li><a href="#animal-profile-page">Dogs</a></li>
+               <li><a href="#animal-profile-page">Monkeys</a></li>
+               <li><a href="#animal-profile-page">Deer</a></li>
+               <li><a href="#animal-profile-page">Parrots</a></li>
+               <li><a href="#animal-profile-page">Hawks</a></li>
+               <li><a href="#animal-profile-page">Chicken</a></li>
+               <li><a href="#animal-profile-page">Turkeys</a></li>
+               <li><a href="#animal-profile-page">Eagles</a></li>
+               <li><a href="#animal-profile-page">Pandas</a></li>
+               <li><a href="#animal-profile-page">Snakes</a></li>
+               <li><a href="#animal-profile-page">Doves</a></li>
+               <li><a href="#animal-profile-page">Raccoons</a></l>
+               <li><a href="#animal-profile-page">Animal 8</a></li>
+               <li><a href="#animal-profile-page">Animal 9</a></li>
+               <li><a href="#animal-profile-page">Animal 10</a></li>
+               <li><a href="#animal-profile-page">Animal 1</a></li>
+               <li><a href="#animal-profile-page">Animal 2</a></li>
+               <li><a href="#animal-profile-page">Animal 3</a></li>
+               <li><a href="#animal-profile-page">Animal 4</a></li>
+               <li><a href="#animal-profile-page">Animal 5</a></li>
+               <li><a href="#animal-profile-page">Animal 6</a></li>
+               <li><a href="#animal-profile-page">Animal 7</a></li>
+               <li><a href="#animal-profile-page">Animal 8</a></li>
+               <li><a href="#animal-profile-page">Animal 9</a></li>
+               <!--<li><a href="#animal-profile-page">Animal 10</a></li>
+               <li><a href="#animal-profile-page">Animal 1</a></li>
+               <li><a href="#animal-profile-page">Animal 2</a></li>
+               <li><a href="#animal-profile-page">Animal 3</a></li>
+               <li><a href="#animal-profile-page">Animal 4</a></li>
+               <li><a href="#animal-profile-page">Animal 5</a></li>
+               <li><a href="#animal-profile-page">Animal 6</a></li>
+               <li><a href="#animal-profile-page">Animal 7</a></li>
+               <li><a href="#animal-profile-page">Animal 8</a></li>
+               <li><a href="#animal-profile-page">Animal 9</a></li>
+               <li><a href="#animal-profile-page">Animal 10</a></li>
+               <li><a href="#animal-profile-page">Animal 1</a></li>
+               <li><a href="#animal-profile-page">Animal 2</a></li>
+               <li><a href="#animal-profile-page">Animal 3</a></li>
+               <li><a href="#animal-profile-page">Animal 4</a></li>
+               <li><a href="#animal-profile-page">Animal 5</a></li>
+               <li><a href="#animal-profile-page">Animal 6</a></li>
+               <li><a href="#animal-profile-page">Animal 7</a></li>
+               <li><a href="#animal-profile-page">Animal 8</a></li>
+               <li><a href="#animal-profile-page">Animal 9</a></li>
+               <li><a href="#animal-profile-page">Animal 10</a></li>
+               <li><a href="#animal-profile-page">Animal </a></li>-->
+            </ul>
+         </div>
+      </div>
+      <footer data-role="footer">
+
+         <ul>
+            <li><a href="#map-page">Map</a></li>
+              <!--<img class="nav-icon" src="img/mapic2.png" alt="Mapicon">-->
+              <!--<div class="nav-label">Map</div>-->
+          <!--<img src="img/mapic2.svg" viewbox="0 0 100 100" class="mapicon" style="width:20px;height:25px;">-->
+            <li><a href="#list-page">List</a></li>
+            <div class="nav-icon">
+            <img src="img/icon/list.svg" alt="">
+         </div>
+            <li><a href="#user-profile-page">Profile</a></li>
+
+         </ul>
+      </footer>
+
+      <div class="modal" id="list-add-modal">
+         <div class="modal-back" data-deactivate="#list-add-modal"></div>
+         <form id="list-add-form" data-ajax="false" class="modal-popup">
+            <div class="modal-head">Add Animal</div>
+            <div class="modal-body">
+               <div class="form-control">
+                  <label for="list-add-name" class="form-label">Name</label>
+                  <input id="list-add-name" type="text" class="form-input" data-role="none" placeholder="Type animal name">
+               </div>
+               <div class="form-control">
+                  <label for="list-add-type" class="form-label">Type</label>
+                  <input id="list-add-type" type="text" class="form-input" data-role="none" placeholder="Type animal type">
+               </div>
+               <div class="form-control">
+                  <label for="list-add-breed" class="form-label">Breed</label>
+                  <input id="list-add-breed" type="text" class="form-input" data-role="none" placeholder="Type animal breed">
+               </div>
+            </div>
+            <div class="modal-foot">
+               <input type="submit" value="Save" data-role="none">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section data-role="page" id="user-profile-page">
+       <header data-role="header">
+         <h1>Rabbit Profile</h1>
+      </header>
+      <div data-role="main">
+         Animal Profile
+         <p><a href="#" class="js-logout">Logout</a></p>
+         <img class="nav-icon" src="img/hare.png" alt="Mapicon">
+
+      </div>
+
+      <footer data-role="footer">
+         <ul>
+            <li>
+               <a href="#map-page">
+                  <!--<img src="mapic2.svg" viewbox="0 0 100 100" class="logo" style="width:20vw;height:35vw;">-->
+                  <!--<div class="nav-label">Map</div>--></a>
+            </li>
+            <li><a href="#recent-page">Recent</a></li>
+            <li><a href="#list-page">List</a></li>
+            <li><a href="#user-profile-page">Profile</a></li>
+         </ul>
+      </footer>
+   </section>
+
+   <section data-role="page" id="animal-profile-page">
+      <header data-role="header">
+         <h1>Animal Page</h1>
+         <ul>
+            <li><a href="#" data-rel="back">Back</a></li>
+         </ul>
+      </header>
+      <div data-role="main">
+         Animal Profile
+      </div>
+   </section>
+
+</body>
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

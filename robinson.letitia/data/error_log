@@ -1,0 +1,8 @@
+[10-Nov-2020 12:55:59 America/Chicago] PHP Warning:  include_once(auth.php): failed to open stream: No such file or directory in /home3/anotherluv/public_html/aau/wnm617_02/robinson.letitia/data/api.php on line 5
+[10-Nov-2020 12:55:59 America/Chicago] PHP Warning:  include_once(): Failed opening 'auth.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home3/anotherluv/public_html/aau/wnm617_02/robinson.letitia/data/api.php on line 5
+[10-Nov-2020 12:55:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function Auth() in /home3/anotherluv/public_html/aau/wnm617_02/robinson.letitia/data/api.php:7
+Stack trace:
+#0 /home3/anotherluv/public_html/aau/wnm617_02/robinson.letitia/data/api.php(52): makeConn()
+#1 /home3/anotherluv/public_html/aau/wnm617_02/robinson.letitia/data/api.php(94): makeStatement(Object(stdClass))
+#2 {main}
+  thrown in /home3/anotherluv/public_html/aau/wnm617_02/robinson.letitia/data/api.php on line 7
