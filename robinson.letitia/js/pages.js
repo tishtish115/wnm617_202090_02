@@ -10,7 +10,7 @@ const RecentPage = async() => {
 
    await checkData(()=>window.google);
 
-   new google.maps.Map $("#recent-page .map"),[0] {
+   new google.maps.Map($("#recent-page .map")[0], {
       center: { lat: -34.397, lng: 150.644 },
       zoom: 8,
 
@@ -19,7 +19,7 @@ const RecentPage = async() => {
    }
 
 
-   // async and await
+// async and await
 const ListPage = async() => {
    let d = await query({
       type:'animals_by_user_id',
@@ -30,12 +30,11 @@ const ListPage = async() => {
 
    $("#list-page .animallist")
       .html(makeAnimalList(d.result));
-}
 
    let valid_animals = d.result.reduce((r,o)=>{
-   	o.icon = o.img;
-   	 if(o.lat && o.lng) r.push(0);
-   	 return r;
+      o.icon = o.img;
+         if(o.lat && o.lng) r.push(0);
+         return r;
 
    },[])
 
@@ -45,18 +44,7 @@ const ListPage = async() => {
    //console.log(map_el.data('map'))
 
    makeMarkers(map_el,d.result);
-
 }
-
-
-
-
-
-
-
-
-
-
 
 
 const UserProfilePage = async() => {
@@ -70,11 +58,6 @@ const UserProfilePage = async() => {
    $("#user-profile-page .profile")
       .html(makeUserProfile(d.result));
 }
-
-
-
-
-
 
 const AnimalProfilePage = async() => {
    let d = await query({

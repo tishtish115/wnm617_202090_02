@@ -31,7 +31,9 @@ const checkUserId = () => {
          $.mobile.navigate("#signin-page");
    } else {
       // logged in
-      if(p.some(o=>window.location.hash===o))
+      if(p.some(o=>window.location.hash===o)) {
+         query({type: 'animals_by_user_id'})
          $.mobile.navigate("#recent-page");
+      }
    }
 }
