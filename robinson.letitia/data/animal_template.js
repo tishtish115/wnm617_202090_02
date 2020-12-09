@@ -13,7 +13,7 @@
       var breeds = {
         "rabbit":["marsh","swamp","american","cottontail"],
         "horse":["shetland", "andalusian","unicorn"],
-        "rabbit": ["Pygmy","Volcano","Amami","Sumatran"]
+        "cat": ["Tabby","Volcano","Siamese","Sumatran"]
     };
       var chosen_type = breeds[this.type];
       var chosen_index = tags.integer(0,chosen_type.length-1);

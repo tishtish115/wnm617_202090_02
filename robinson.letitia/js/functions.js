@@ -3,6 +3,7 @@
 const query = (options) => {
    // Fetch is a Promise
    return fetch('data/api.php',{
+      //credentials: 'include'
       method:'POST',
       body:JSON.stringify(options),
       header:{'Content-Type':'application/json'}

@@ -60,17 +60,51 @@ a:hover {
    text-decoration:underline;
 }
 
+img{
+  width: 380px;
+  height:380px;
+
+}
 .nav-icon {
   width:60px;height:55px;
   padding: 4px; 
 }
 
 
-
+.map{
+  height:100%;
+}
 /* Layout Classes */
 
 
 .hidden { display:none; }
+
+
+ }
+ .input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 25px;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    border-radius: 24px;
+}
 
 
 .display-flex { display:flex; }
@@ -125,23 +159,24 @@ a:hover {
     display: inline-block;
     width: 100%;
     border-width: 0;
-    background-color: var(--color-neutral-light);
+    background-color: #b49b57;
     font: inherit;
     padding: 0.5em 1em;
     margin: 0;
     outline: 0;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 
 
 #signin-form,
 #signup-form {
+  border-radius:75px;
    padding:1em;
 }
 .signin-alt {
-   padding:1em;
+   padding:1em; 
    text-align:center;
    font-size:0.8em;
 }
@@ -150,9 +185,6 @@ a:hover {
    background-position:center;
    background-size:cover;
 }
-
-
-
 
 
 /* PAGE LAYOUTS */
@@ -197,7 +229,7 @@ a:hover {
 
 
 .ui-mobile a img{
-  border-radius:45px;
+  border-radius:10px;
   margin: 60px;
 }
 
@@ -362,6 +394,22 @@ ASk Professor should floater be here? There is still modal beneath this...
 .floater.bottom { bottom:1em; }
 
 
+
+.hotdog {
+  display:inline-block;
+  width:100%;
+  background-color:var();
+}
+
+.hiotdog input{
+  background-color: transparent;
+  border-width: 0;
+  font:inherit;
+  border-radius: 10px;
+
+}
+
+
 /* CIRCLE BUTTON */
 .btn-circle {
     background-color: white;
@@ -378,7 +426,7 @@ ASk Professor should floater be here? There is still modal beneath this...
 
 /* PROFILE */
 .profile-image img {
-    border-radius: 50%;
+    border-radius: 75%;
     width: calc(100vw - 4em);
     height: calc(100vw - 4em);
     object-fit: cover;
@@ -419,8 +467,8 @@ ASk Professor should floater be here? There is still modal beneath this...
 
 
 .animallist-image img {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     vertical-align:text-bottom;
 }
@@ -455,8 +503,8 @@ ASk Professor should floater be here? There is still modal beneath this...
    font-size:1.5em;
 }
 .nav-label {
-   line-height:calc(var(--header-height) * 0.4);
-   font-size:0.7em;
+   line-height:calc(var(--header-height) * 1);
+   font-size:1em;
 
 
 

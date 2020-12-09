@@ -1,7 +1,10 @@
 
 
-const makeMap = async (target, center={lat: 36.000778667223, lng: -84.362289}) => {
-   await checkData(()=>window.google);     
+const makeMap = async (target, center={lat: 34.005290, lng: -84.140231}) => {
+   await checkData(()=>window.google);   
+
+     //* latitude: '{{floating(-90.000001, 90)}}',//
+   // longitude: '{{floating(-180.000001, 180)}}'*//  
 
    let map_el = $(target);
 
@@ -30,6 +33,7 @@ const makeMarkers = (map_el, map_locs) => {
    markers = [];
 
    map_locs.forEach(o=>{
+      console.log(o)
       let m = new google.maps.Marker({
          position: o,
          map: map,
@@ -87,6 +91,6 @@ const setMapBounds = (map_el, map_locs) => {
    }
 }
 
-a
+
 
 

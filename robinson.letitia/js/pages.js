@@ -8,28 +8,6 @@ const RecentPage = async() => {
 
    console.log(d)
 
-   await checkData(()=>window.google);
-
-   new google.maps.Map($("#recent-page .map")[0], {
-      center: { lat: -34.397, lng: 150.644 },
-      zoom: 8,
-
-     });
-
-   }
-
-
-// async and await
-const ListPage = async() => {
-   let d = await query({
-      type:'animals_by_user_id',
-      params:[sessionStorage.userId]
-   });
-
-   console.log(d)
-
-   $("#list-page .animallist")
-      .html(makeAnimalList(d.result));
 
    let valid_animals = d.result.reduce((r,o)=>{
       o.icon = o.img;
@@ -41,9 +19,37 @@ const ListPage = async() => {
 
    let map_el = await makeMap("#recent-page .map");
 
-   //console.log(map_el.data('map'))
+   console.log(map_el.data('map'))
 
    makeMarkers(map_el,d.result);
+
+   console.log(d);
+
+   // await checkData(()=>window.google);
+
+    new google.maps.Map($("#recent-page .map")[0], {
+      center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+
+     });
+
+}
+
+
+// async and await
+const ListPage = async() => {
+   let d = await query({
+      type:'animals_by_user_id',
+      params:[sessionStorage.userId]
+   });
+
+   console.log(d);
+
+   $("#list-page .animallist")
+      .html(makeAnimalList(d.result));
+   
+
+   
 }
 
 
@@ -53,10 +59,12 @@ const UserProfilePage = async() => {
       params:[sessionStorage.userId]
    });
 
-   console.log(d)
+   console.log(d);
 
    $("#user-profile-page .profile")
       .html(makeUserProfile(d.result));
+
+
 }
 
 const AnimalProfilePage = async() => {
@@ -65,10 +73,18 @@ const AnimalProfilePage = async() => {
       params:[sessionStorage.animalId]
    });
 
-   console.log(d)
+   console.log(d);
 
    $("#animal-profile-page .profile")
       .html(makeAnimalProfile(d.result));
 
    makeMap("#animal-profile-page .map")
+
+
+
 }
+
+
+
+
+

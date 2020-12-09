@@ -80,5 +80,15 @@ const checkAnimalEditForm = () => {
          throw d.error;
       }
       window.history.back();
-   })
+   });
+}
+
+//DEC 1, 2020 class//
+
+//const checkUpload = file =
+
+
+
+const checkSearchForm = () => {
+   //let 
 }

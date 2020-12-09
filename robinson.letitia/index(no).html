@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
+
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="mobile-web-app-capable" content="yes">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
    <title>Rabbit Tracker</title>
    <link rel="stylesheet" href="lib/css/jquery.mobile.structure-1.4.5.min.css">
    <!-- <link rel="stylesheet" href="https//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  -->
    <link rel="stylesheet" href="css/app.css">
-<!--AIzaSyBRGHYy2xhsOPXrfs2TkaNX2ars9P6Owlg-->
    <script src="lib/js/jquery-2.2.4.min.js"></script>
 
    <script src="js/function.js"></script>
@@ -19,9 +22,9 @@
 
    <script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRGHYy2xhsOPXrfs2TkaNX2ars9P6Owlg" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN7R837QS1Lka-7e_sfebb1MEA0IIZtGo" defer></script>
 
-</head>
+<!--</head>-->
  <!--<h1 class="ui-title" role="heading" aria-level="1">Rabbit Tracker</h1>-->
  <!--<header data-role="header">
          <h1>Rabbit Tracker</h1>
@@ -30,30 +33,27 @@
             <li><a href="#" data-activate="#list-add-modal">&plus;</a></li>
          </ul>
       </header>-->
-<body>
- 
+<!--reopen<body class>-->
    <!--<div id="googleMap" style="width: 100%; height: 400px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" draggable="false" style="user-select: none;"></div><div class="gm-err-title">-->
+
+
+ <!--BREAKDOWN EVERYTHING BY EACH SECTION-->
+<body class= "ui-mobile-viewport ui-overlay-a">
+
    <section data-role="page" id="signin-page">
        <header data-role="header">
          <h1>Rabbit Trackers</h1>
       </header>
       <div data-role="main" class="display-flex flex-column">
-         <div class="flex-stretch display-flex flex-align-center flex-justify-center">
-            <img src="paws.jpg" class="logo" style="width:40vw;height:40vw;"> 
-
-            <!--<h1 class="ui-title" roles"heading"="" aria-level="1>Rabbit Tracker</h1>-->
-            <!--<div class=" header"="">
-        </h1>
-        <h1>Rabbit Tracker</h1>
-        <!-<h2>Simply Beautiful</h2>-->
+      <div class="flex-stretch display-flex flex-align-center flex-justify-center">
+       <img src="paws.jpg" width="300px" height="300px" alt="paw"> 
+         </div>
          </div>
             <!--<img src="anl(header).jpg" alt="logo" width="1500" height="1700">-->
             <!--<img src="file:///Volumes/LaCie/San%20Francisco%20Academy%20of%20Art/WNM%20617%20Advanced%20Tech-%20Mobile%20Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/anl(header).jpg">
             <img src="http://anotherluvdesign.site/images/anl(header).jpg">-->
             
             <!-- <img src="paws.jpg" class="logo" style="width:60vw;height:60vw;">  -->
-            
-            <!--<img src="_MG_9343.jpg" viewbox="0 0 50 50" class="paris" style="width:250vw;height:250vw;">-->
              
          <form id="signin-form" data-ajax="false">
             <div class="form-control">
@@ -75,19 +75,73 @@
       </div>
    </section>
 
+
+
+<!--Try this for the signin page-->
+<!--<body class= "ui-mobile-viewport ui-overlay-a">-->
+ 
+   <!--? get rid of this????<div id="googleMap" style="width: 100%; height: 400px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-err-container"><div class="gm-err-content"><div class="gm-err-icon"><img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" draggable="false" style="user-select: none;"></div><div class="gm-err-title">-->
+   <!--reopen??<section data-role="page" id="signin-page">
+       <header data-role="header">
+         <h1>Rabbit Tracker</h1>
+      </header>
+      <div data-role="main" class="display-flex flex-column">
+         <div class="flex-stretch display-flex flex-align-center flex-justify-center">-->
+
+            <!--<h1 class="ui-title" roles"heading"="" aria-level="1>Rabbit Tracker</h1>-->
+            <!--<div class=" header"="">-->
+        
+    <!--reopn</div>-->
+            <!--<img src="anl(header).jpg" alt="logo" width="1500" height="1700">-->
+            <!--<img src="file:///Volumes/LaCie/San%20Francisco%20Academy%20of%20Art/WNM%20617%20Advanced%20Tech-%20Mobile%20Web/Development/anotherluv/aau/wnm617_02/robinson.letitia/anl(header).jpg">
+            <img src="http://anotherluvdesign.site/images/anl(header).jpg">-->
+            
+         <!--<img src="paws.jpg" class="logo" style="width:60vw;height:60vw;"> -->
+            
+            <!--<img src="_MG_9343.jpg" viewbox="0 0 50 50" class="paris" style="width:250vw;height:250vw;">-->
+             
+         <!--</div>
+         <form id="signin-form" data-ajax="false">
+            <div class="form-control">
+               <label for="signin-username" class="form-label">Username</label>
+               <input id="signin-username" type="text" class="form-input" data-role="none" placeholder="Type your username">
+            </div>
+            <div class="form-control">
+               <label for="signin-password" class="form-label">Password</label>
+               <input id="signin-password" type="password" class="form-input" data-role="none" placeholder="Type your password">
+            </div>
+            <div class="form-control">
+               <input type="submit" class="form-button" value="submit" data-role="none">
+            </div>
+            <div class="form-control signin-alt">
+               Don't have an account?
+               <a href="#signup-page">Sign Up</a>
+            </div>
+         </form>
+      </div>
+
+   </section>-->
+
+
+
+
+
+
+
+
    <section data-role="page" id="signup-page">
        <header data-role="header">
          <h1>Rabbit Tracker</h1>
-         <!--this "map" tag should be under the recent-page, if it can be found-->
-          <div class="map"></div>
+        </header>
+         
          <ul>
             <li class="flex-stretch"></li>
             <li><a href="#" data-activate="#list-add-modal">&plus;</a></li>
          </ul>
-      </header>
+      
       <!--<h1 class="ui-title" role="heading" aria-level="1">Rabbit Tracker</h1>-->
    <div data-role="main" class="display-flex flex-align-center flex-justify-center">
-         <img src="paws.jpg" class="logo" style="width:60vw;height:60vw;"> 
+      <img src="paws.jpg" class="logo" width="300px" height="300px" alt="rabbits foot"> 
          <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="icon" style="width:80vw;height:80vw;"><defs><style>.stroke-thin-center{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:4px;}</style></defs><title>thumbs-up</title><path d="M50,25V45H75.86l-2.93,2.93L70,50.86V74a1,1,0,0,1-1,1H20V55h5A20,20,0,0,0,45,35V25h5m0-10H40a5,5,0,0,0-5,5V35A10,10,0,0,1,25,45H10V85H69A11,11,0,0,0,80,74V55l2.93-2.93a10,10,0,0,0,0-14.14L80,35H60V25A10,10,0,0,0,50,15Z"></path><line class="stroke-thin-center" x1="30" y1="79" x2="30" y2="50"></line></svg>-->
          <form id="signup-form" data-ajax="false">
             <div class="form-control">
@@ -110,15 +164,13 @@
                </div>
             </div>
                <div class="form-group">
-                  <button type="submit" class="btn btn-primary btn-block">Log in</button>
-               </div>
-            </div>
+            <button type="submit" class="btn btn-primary btn-block">Log in</button></div>
             <div class="form-group">
-               <a href="#signin-page" class="form-button">Sign In</a>
+            <a href="#signin-page" class="form-button">Sign In</a>
                   <!--<button type="submit">Login</button>-->
                   <!--<div class="form-group">-->     
                <div>
-                 <input type="submit" value="submit">Submit</button>
+            <button type="submit" value="submit">Submit</button></div>
                </div>
                
             </div>
@@ -126,15 +178,109 @@
       </div>
    </section>
 
-   <section data-role="page" id="recent-page">
+
+
+<!--THIS CREATES THE HOT DOG SEARCH BUTTON FOR THE USER PROFILE PAGE. DO I WANT THIS ON MY PAGE-->
+     <section data-role="page" id="list-page">
+      <header data-role="header">
+         <ul>
+            <li class="flex-stretch" style="padding:0.2em 0.5em">
+               <form class="hotdog" id="list-search-form" data-ajax="false">
+                  <input type="search" id="list-search-input" data-role="none">
+               </form>
+            </li>
+            <li><a href="#animal-add-page">&plus;</a></li>
+         </ul>
+      </header>
+      <div data-role="main">
+         <div class="overscroll">
+            <div class="animallist"></div>
+         </div>
+      </div>
+      <footer data-role="footer" data-template="#footer-template"></footer>
+
+   </section>
+<!--HOT DOG PAGE STOPS HERE-->
+
+
+<!--THIS SECTION SHOWS HOW TO UPLOAD AN IMAGE INTO A NEW PAGE, TRY IT AND SEE WHAT HAPPENS. EACH SECTION IS A NEW PAGE--->
+<section data-role="page" id="user-upload-page">
+      <header data-role="header">
+         <h1>Choose Photo</h1>
+         <ul>
+            <li><a href="#" data-rel="back">Back</a></li>
+            <li class="flex-stretch"></li>
+            <li><a href="#" class="js-user-upload">Save</a></li>
+         </ul>
+
+      </header>
+      <div data-role="main">
+         <form id="user-upload-form" data-ajax="false">
+            <input type="hidden" id="user-upload-image">
+            <label class="image-uploader full">
+               <input type="file" data-role="none" id="user-upload-input">
+            </label>
+         </form>
+      </div>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+      <!--Find out what this means?????? CAN I CHANGE THE "LIST PAGE" TO "USER PROFILE PAGE"-->
+
       <section data-role="page" id="list-page" data-url="list-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="">
+         <header data-role="header" role="banner" class="ui-header ui-bar-inherit">
+            <h1 class="ui-title" role="heading" aria-level="1">User Profile Page</h1>
+            <ul>
+               <li class="flex-stretch"></li>
+               <li><a href="#" data-activate="#list-add-modal" class="ui-link">+</a></li>
+            </ul>
+         </header>
+
+         <div data-role="main">
+            <div class="overscroll">
+               <div class="animallist">
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--where should this section go-->
+<!--<section data-role="page" id="list-page" data-url="list-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="">-->
+
+
+   <section data-role="page" id="recent-page">
       <header data-role="header" role="banner" class="ui-header ui-bar-inherit">
          <h1 class="ui-title" role="heading" aria-level="1">User Profile Page</h1>
+         <!--where should this be--> <!--this "map" tag should be under the recent-page, if it can be found-->
+      <div class="map"></div>
+
          <ul>
             <li class="flex-stretch"></li>
             <li><a href="#" data-activate="#list-add-modal" class="ui-link">+</a></li>
          </ul>
       </header>
+
       <section data-role="page" id="recent-page" data-url="recent-page" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="">
       <div data-role="main">
       <div class="map" style="overflow:" hidden;="">
@@ -145,19 +291,7 @@
       <div data-role="main">
          <div class="overscroll">
             <div class="animallist">
-
-
-            <!--<a href="#animal-profile-page" class="animallist-item ui-link">
-                  <div class="animallist-image">
-                  <img src="img/hare-2647220_1920.png"  alt="rabbit">
-                  </div>
-                  <div class="animallist-description">
-                     <div class="animallist-name">Hoppy</div>
-                     <div class="animallist-type"><strong>Type:</strong>Marsh Rabbit</div>
-                     <div class="animallist-breed"><strong>Breed:</strong>Sylvilagus palustris</div>
-                  </div>
-               </a> up to here-->
-                    <!--This works-->
+<!--THIS WORKS-->
          <div class="animallist-item js-animal-jump" data-id="1">
    <div class="animallist-image">
      <img src="img/Belgische_haas_(konijnenras).png" alt="rabbit">
@@ -386,8 +520,9 @@
       
       <footer data-role="footer" role="contentinfo" class="ui-footer ui-bar-inherit">
          <ul>
+            <!--WHY WONT MY MAP LINK CONNECT TO THE MAP?/RECENT?/PAGE-->
             <li><a href="#map-page" class="ui-link">Map</a></li>
-              <!--<img class="nav-icon" src="img/mapic2.png" alt="Mapicon">-->
+            <!-<img class="nav-icon" src="img/mapic2.png" alt="Mapicon">
               <!--<div class="nav-label">Map</div>-->
           <!--<img src="img/mapic2.svg" viewbox="0 0 100 100" class="mapicon" style="width:20px;height:25px;">-->
             <li><a href="#list-page" class="ui-link">List</a></li>
@@ -435,19 +570,19 @@
          <!--<img src="https://via.placeholder.com/250/0000FF
 C/O https://placeholder.com/#How_To_Set_Image_Size"></a>-->
 <!--<img src="https://via.placeholder.com/400/714/fff/?text=user" alt="">-->
-<img src="http://placehold.jp/1b68b5/ffffff/250x250.png?text=user" alt="">
-         <!--<img class=img src ">-->
+<img src="http://placehold.jp/1b68b5/ffffff/250x250.png?text=user" alt=""></a>
+</div>
 
-      </a></div><a href="https://placeholder.com" class="ui-link">
-
-      </a><footer data-role="footer" role="contentinfo" class="ui-footer ui-bar-inherit"><a href="https://placeholder.com" class="ui-link ui-btn ui-shadow ui-corner-all" data-role="button" role="button">
+      <a href="https://placeholder.com" class="ui-link"></a>
+      <!--I THINK THE ISSUE IS ALL IN HERE-->
+      <!--<footer data-role="footer" role="contentinfo" class="ui-footer ui-bar-inherit"><a href="https://placeholder.com" class="ui-link ui-btn ui-shadow ui-corner-all" data-role="button" role="button">
          </a><ul><a href="https://placeholder.com" class="ui-link">
             </a><li><a href="https://placeholder.com" class="ui-link">
                </a><a href="#map-page" class="ui-link">
-                  <!--<img src="mapic2.svg" viewbox="0 0 100 100" class="logo" style="width:20vw;height:35vw;">-->
-                  <!--<div class="nav-label">Map</div>--></a>
+                  <img src="mapic2.svg" viewbox="0 0 100 100" class="logo" style="width:20vw;height:35vw;">
+                  <div class="nav-label">Map</div>--></a>
             </li>
-            <li><a href="#recent-page" class="ui-link">Recent</a></li>
+            <li><a href="#map-page" class="ui-link">Recent</a></li>
             <li><a href="#list-page" class="ui-link">List</a></li>
             <li><a href="#user-profile-page" class="ui-link">Profile</a></li>
          </ul>
@@ -467,17 +602,16 @@ C/O https://placeholder.com/#How_To_Set_Image_Size"></a>-->
    </section>
 
 
-</section>
+<!--</section>
       <header data-role="header">
          <h1>Rabbit Tracker</h1>
       </header>
-          <!--<img src="https://via.placeholder.com/50/956/fff/?text=snytax" alt="">-->
       <div data-role="main">
          <div class="floater top right">
        <img src="https://via.placeholder.com/50/937/fff/?text=Entropix" alt="">
             <div class="btn-circle" data-activate="#recent-add-modal">&equiv;</div>
             <img src="https://via.placeholder.com/50/956/fff/?text=snytax" alt="">
-
+         </div>
          </div>
          <img src="https://via.placeholder.com/50/956/fff/?text=snytax" alt="">
 
@@ -509,7 +643,7 @@ C/O https://placeholder.com/#How_To_Set_Image_Size"></a>-->
             <li><a href="#user-profile-page">Profile</a></li>
          </ul>
       </footer>
-   </section>
+   </section>-->
 
    <section data-role="page" id="list-page">
       <header data-role="header">
@@ -571,7 +705,7 @@ C/O https://placeholder.com/#How_To_Set_Image_Size"></a>-->
       <img src="https://via.placeholder.com/400/956/fff/?text=Elentrix" alt="">
    </div>
    <div class="animallist-description">
-      <div class="animallist-name">Harry</div>
+      <div class="animallist-name">Joe-Joe</div>
       <div class="animallist-type"><strong>Type: </strong>Marsh Rabbit</div>
       <div class="animallist-breed"><strong>Breed: </strong>Sylvilagus palustris </div>
    </div>
@@ -749,17 +883,17 @@ C/O https://placeholder.com/#How_To_Set_Image_Size"></a>-->
 
       </div>
 
-      <footer data-role="footer">
-         <!--<ul>
+      <footer data-role="footer" role="contentinfo" class="ui-footer ui-bar-inherit">
+         <ul>
             <li>
-               <a href="#map-page">
-                  <img src="mapic2.svg" viewbox="0 0 100 100" class="logo" style="width:20vw;height:35vw;">
-                  <div class="nav-label">Map</div>--</a>
+               <a href="#recent-page">
+               <!--<img src="mapic2.svg" viewbox="0 0 100 100" class="logo" style="width:20vw;height:35vw;">-->
+                  <div class="nav-label">Map</div></a>
             </li>
             <li><a href="#recent-page">Recent</a></li>
             <li><a href="#list-page">List</a></li>
             <li><a href="#user-profile-page">Profile</a></li>
-         </ul>-->
+         </ul>
       </footer>
    </section>
 
@@ -769,6 +903,7 @@ C/O https://placeholder.com/#How_To_Set_Image_Size"></a>-->
          <ul>
             <li><a href="#" data-rel="back">Back</a></li>
          </ul>
+         
       </header>
       <div data-role="main">
          Animal Profile
