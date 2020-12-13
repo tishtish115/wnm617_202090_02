@@ -10,7 +10,7 @@ const drawAnimalList = (a,empty_phrase='Hey Dummy, add an animal.') => {
 const makeAnimalList = templater(o=>`
 <a href="#animal-profile-page" class="animallist-item js-animal-jump" data-id="${o.id}">
    <div class="animallist-image">
-      <img src="https://via.placeholder.com/300/3a9/fff?text=horse" alt="horse">
+      <img src="https://via.placeholder.com/400/3a9/fff?text=horse" alt="horse">
    </div>
    <div class="animallist-description">
       <div class="animallist-name">${o.name}</div>

@@ -28,7 +28,7 @@ const RecentPage = async() => {
    // await checkData(()=>window.google);
 
     new google.maps.Map($("#recent-page .map")[0], {
-      center: { lat: -34.397, lng: 150.644 },
+      center: {lat: 33.979560, lng: -84.3950845510611},
     zoom: 8,
 
      });

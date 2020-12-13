@@ -192,15 +192,22 @@
             <div class="modal-drawer bottom">
                <div class="modal-close-floater top right">
                   <div class="btn-circle" data-deactivate="#recent-animal-modal">&times;</div>
+            <img src="https://via.placeholder.com/100/749/fff/?text=ZENTIME " alt="" class="profile-image">
                </div>
                <div class="modal-head">head</div>
                <div class="modal-body"></div>
             </div>
          </div>
       </div>
-      <footer data-role="footer" data-template="#footer-template"></footer>
+   <footer data-role="footer" data-template="#footer-template"></footer>
       
    </section>
+
+   
+
+
+
+
 
    <section data-role="page" id="list-page">
       <header data-role="header">
@@ -218,14 +225,25 @@
       <div data-role="main">
          <div class="overscroll">
             <div class="animallist"></div>
-            
+   <div data-role="main" class="display-flex flex-column">
 
 
-         </div>
-         <div class="floater right bottom">
-            <a href="#animal-add-page" class="btn-circle">&plus;</a>
-         </div>
-      </div>
+<!--This works-->
+
+         <a href="#animal-profile-page" class="animallist-item ui-link">
+            <!--<div class="animallist-item js-animal-jump">-->
+                  <div class="animallist-image">
+
+                     <img src="https://via.placeholder.com/100/749/fff/?text=ZENTIME " alt="" class="profile-image">
+                  </div>
+                  <div class="animallist-description">
+                     <div class="animallist-name">ZENTIME</div>
+                     <div class="animallist-type"><strong>Type: </strong>Rabbit</div>
+                     <div class="animallist-breed"><strong>Breed: </strong>Sylvilagus palustris</div>
+                  </div>
+                  </div>
+               </div>
+
       <footer data-role="footer" data-template="#footer-template"></footer>
 
    </section>
@@ -245,7 +263,7 @@
    <section data-role="page" id="user-profile-page">
       <div data-role="main">
          <div class="profile"></div>
-         <div class
+         <div class="map">
 
       </div>
       <footer data-role="footer" data-template="#footer-template"></footer>
@@ -380,33 +398,66 @@
             </a></li>
             <li class="flex-stretch"></li>
             <li><a href="#animal-edit-page">
-               <img src="https://via.placeholder.com/400/734/fff/?text=Hoppy" alt>
-               <!--<img src="img/icon/pencil.svg" alt="" class="icon">-->
+               <!--<img src="https://via.placeholder.com/150/734/fff/?text=Hoppy" alt>
+               <img src="img/icon/pencil.svg" alt="" class="icon">
             </a></li>
             <li>
-               <a href="https://placeholder.com"><img src="https//via.placeholder.com/150"></a>
+            <img src="https://via.placeholder.com/400/734/fff/?text=Hoppy" alt>
+               <a href="https://placeholder.com">
+                  <img src="https//via.placeholder.com/150"></a></li>-->
          </ul>
       </header>
-      <div data-role="main" class="display-flex flex-column">
+      <!--<div data-role="main" class="display-flex flex-column">-->
 
 <!--This works-->
 
-         <a href="#animal-profile-page" class="animallist-item ui-link">
+         <!--<a href="#animal-profile-page" class="animallist-item ui-link">
             <div class="animallist-item js-animal-jump">
                   <div class="animallist-image">
-                     <img src="https://via.placeholder.com/400/789/fff/?text=Zentime " alt="" class="profile-image">
+
+                     <img src="https://via.placeholder.com/150/749/fff/?text=Zentime " alt="" class="profile-image">
+                  </div>
+                  <div class="animallist-description">
+                     <div class="animallist-name">Zendoor</div>
+                     <div class="animallist-type"><strong>Color: </strong>Golden</div>
+                     <div class="animallist-breed"><strong>Breed: </strong>Sylvilagus palustris</div>
+                  </div>
+                  </div>
+
+                <a href="#animal-profile-page" class="animallist-item ui-link">
+                  <img src="https://via.placeholder.com/150/734/fff/?text=Hoppy" alt>
+               <div class="animallist-description">
+                  
+               <img src="https://via.placeholder.com/400/734/fff/?text=Hoppy" alt>
+               <img src="img/hare-2647220_1920.png"  alt="rabbit">
+                  </div>
+                 <div class="animallist-description">
+                     <div class="animallist-name">Hoppy</div>
+                     <div class="animallist-type"><strong>Type:</strong>Marsh Rabbit</div>
+                     <div class="animallist-breed"><strong>Breed:</strong>Sylvilagus palustris</div>
+                <div class="https://via.placeholder.com/150/000000/FFFFFF/?text=JoeJoe"></div>
+                  </div>
+               </a>--><!--up to here-->
+
+
+        <!-- <a href="#animal-profile-page" class="animallist-item ui-link">
+            <div class="animallist-item js-animal-jump">
+                  <div class="animallist-image">
+
+                     <img src="https://via.placeholder.com/150/749/fff/?text=Zentime " alt="" class="profile-image">
                   </div>
                   <div class="animallist-description">
                      <div class="animallist-name">Zentime 111</div>
                      <div class="animallist-type"><strong>Color: </strong>Golden</div>
                      <div class="animallist-breed"><strong>Breed: </strong> Russell-Terrier</div>
                   </div>
-                  </div>
-
-
-                  <img src="https://via.placeholder.com/400/734/fff/?text=Hoppy" alt>
-
-                  <img src="img/hare-2647220_1920.png"  alt="rabbit">
+                  </div>-->
+      
+         <!--<a href="#animal-profile-page" class="animallist-item ui-link">
+               <div class="animallist-description">
+                  
+               <img src="https://via.placeholder.com/400/734/fff/?text=Hoppy" alt>
+               <img src="img/hare-2647220_1920.png"  alt="rabbit">
                   </div>
                   <div class="animallist-description">
                      <div class="animallist-name">Hoppy</div>
@@ -414,7 +465,7 @@
                      <div class="animallist-breed"><strong>Breed:</strong>Sylvilagus palustris</div>
                 <div class="https://via.placeholder.com/150/000000/FFFFFF/?text=JoeJoe"></div>
                   </div>
-               </a> <!--up to here-->
+               </a> up to here-->
 
          <div class="animal-top">
             <!<div class="map"></div>
@@ -425,9 +476,10 @@
          </div>
          <div class="animal-bottom">
             <div class="profile"></div>
-            <div class="profile-image"></div>
-            
-            
+            <div class="profile-image">
+            <!--<img src="https://via.placeholder.com/400/806/fff/?text=User1" alt="">-->
+
+            </div>   
          </div>
          
       </div>
@@ -556,7 +608,7 @@
    <script type="text/template" id="footer-template">
    <ul>
       <li><a href="#recent-page">
-         <div class="nav-label">Recent</div>
+         <div class="nav-label">Map</div>
       </a></li>
       <li><a href="#list-page">
          <div class="nav-label">List</div>

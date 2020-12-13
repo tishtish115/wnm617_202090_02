@@ -1,6 +1,6 @@
 
 
-const makeMap = async (target, center={lat: 34.005290, lng: -84.140231}) => {
+const makeMap = async (target, center={lat: 33.979560, lng: -84.3950845510611}) => {
    await checkData(()=>window.google);   
 
      //* latitude: '{{floating(-90.000001, 90)}}',//
