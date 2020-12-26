@@ -29,7 +29,7 @@
    <script src="js/signin.js"></script>
    <script src="js/app.js"></script>
 
-    <script src="/lib/jquery.plugin.js"></script>
+   <!--<script src="/lib/jquery.plugin.js"></script>-->
    <script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN7R837QS1Lka-7e_sfebb1MEA0IIZtGo" defer></script>
 
@@ -37,7 +37,7 @@
  
 
  <!- -BREAKDOWN EVERYTHING BY EACH SECTION-->
- <!--Sign In Page-->
+ <!--SIGN IN PAGE-->
 
 
 <body class= "ui-mobile-viewport ui-overlay-a">
@@ -188,8 +188,25 @@
 
 
    <section data-role="page" id="recent-page">
+   <header data-role="header">
+   <h3 style="color: var(--color-black);">Map</h3>
+   <ul>
+            
+            <li class="flex-stretch"></li>
+            <li class="flex-none">
+               <a href="#animal-add-page" class="ui-link">
+            <!--<img src="https://via.placeholder.com/100/749/fff/?text=ZENTIME " alt="" class="profile-image">-->
+                  <img src="img/icon/add.svg" style="width:20px; margin-top: 1em;"></a>
+            </li>
+         </ul>
+   </header>
       <div data-role="main">
          <div class="map" style="overflow: hidden;"></div>
+      <div style="width: 56px; height: 56px; overflow: hidden; position: absolute; cursor: pointer; touch-action: none; left: -6px; top: -121px; z-index: -73;" title="">
+         <img alt="" src="https://maps.gstatic.com/mapfiles/transparent.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 56px; height: 56px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div>
+          
+          <img alt="" src="https://maps.gstatic.com/mapfiles/transparent.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 56px; height: 56px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"> 
+
 
          <div class="modal" id="recent-animal-modal">
             <div class="modal-drawer bottom">
@@ -214,27 +231,42 @@
 
    <section data-role="page" id="list-page">
       <header data-role="header">
+      <!--<h1>List Page</h1>-->
          <ul>
             <li class="flex-stretch list-search">
+         <li><a href=# data-activate="#list-add-modal"></a></li>
                <form class="hotdog" id="list-search-form" data-ajax="false">
-                  <input type="search" id="list-search-input" data-role="none" placeholder="Search">
+                  <input type="search" id="list-search-input" data-role="none" placeholder="Search" border-radius="75%;">
                </form>
             </li>
          </ul>
       </header>
+
+
+
       <header data-role="header">
          <div class="filter-list"></div>
       </header>
       <div data-role="main">
          <div class="overscroll">
-            <div class="animallist"></div>
+            <div class="animallist">
+               <div class="animallist-item">
+            <div class="animallist-image">
+            <img src="https://via.placeholder.com/300/3a9/fff?text=horse" alt="">
+            </div>
+            .animallist-
+         </div>
+      </div>
+   </div>
+</div>
+
    <div data-role="main" class="display-flex flex-column">
 
 
 <!--This works-->
 
-         <a href="#animal-profile-page" class="animallist-item ui-link">
-            <!--<div class="animallist-item js-animal-jump">-->
+        <!--<a href="#animal-profile-page" class="animallist-item ui-link">
+            <div class="animallist-item js-animal-jump">
                   <div class="animallist-image">
 
                      <img src="https://via.placeholder.com/100/749/fff/?text=ZENTIME " alt="" class="profile-image">
@@ -245,7 +277,8 @@
                      <div class="animallist-breed"><strong>Breed: </strong>Sylvilagus palustris</div>
                   </div>
                   </div>
-               </div>
+               </div>-->
+      
 
       <footer data-role="footer" data-template="#footer-template"></footer>
 
@@ -267,6 +300,7 @@
       <div data-role="main">
          <div class="profile"></div>
          <!--<div class="map">-->
+   <img src="https://via.placeholder.com/100/749/fff/?text=ZENTIME " alt="" class="profile-image">
 
       </div>
       <footer data-role="footer" data-template="#footer-template"></footer>
@@ -320,6 +354,23 @@
       <div data-role="main">
          <form id="user-edit-form" data-ajax="false" style="padding:1em"></form>
       </div>
+   </section>
+
+
+
+
+<!--PROFILE PAGE-->
+
+<section data-role="page" id="user-profile-page">
+      <div data-role="main">
+      <div class="overscroll">
+         <div class="profile">
+            <div class="user-profile-image">
+      <img src="https://via.placeholder.com/400/748/fff/?text=USER4" alt="user">
+         </div>
+      </div>
+      <footer data-role="footer" data-template="#footer-template"></footer>
+      
    </section>
 
 
@@ -379,7 +430,6 @@
          </form>
       </div>
    </section>
-
 
 
 
